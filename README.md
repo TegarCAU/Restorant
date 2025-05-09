@@ -116,4 +116,3 @@ TegarResto adalah destinasi kuliner inovatif yang menghadirkan perjalanan rasa I
 🌟 **Hire Me:**
 - Instagram: @x.tegarutomo
 - WhatsApp: 0812 - 1974-8753
-- Email: tegar.utomo@tegarresto.com
