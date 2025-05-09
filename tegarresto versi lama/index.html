@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TegarUtomo Restoran - Menu & Reservasi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TegarUtomo Restoran</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Lokasi</a></li>
+                <li><a href="#reservation">Reservasi</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di TegarUtomo Restoran</h1>
+            <p>Pengalaman Makan Terbaik dengan Menu Lezat</p>
+            <a href="#reservation" class="cta-button">Pesan Sekarang</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Menu Kami</h2>
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="appetizer">Pembuka</button>
+            <button class="filter-btn" data-filter="main">Utama</button>
+            <button class="filter-btn" data-filter="dessert">Pencuci Mulut</button>
+        </div>
+        <div class="menu-grid" id="menuItems">
+            <!-- Menu items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="location" class="location-section">
+        <h2>Lokasi Kami</h2>
+        <div class="location-content">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.204364312862!2d106.82718121484376!3d-6.211546295516494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3d19a4b9495%3A0x8e8a76f9a8e67e88!2sPlaza%20Senayan!5e0!3m2!1sid!2sid!4v1683018392537!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-info">
+                <h3>Alamat</h3>
+                <p>Jl. In Aja Dulu, Jakarta</p>
+                <h3>Jam Operasional</h3>
+                <p>Senin - Minggu: 10:00 - 22:00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation-section">
+        <h2>Reservasi Meja</h2>
+        <div class="reservation-form">
+            <form id="reservationForm">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Tanggal</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Waktu</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Jumlah Tamu</label>
+                    <select id="guests" name="guests" required>
+                        <option value="">Pilih jumlah</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Catatan Khusus</label>
+                    <textarea id="notes" name="notes"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Pesan Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+62 812-1111-1111</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>tegarrestaurant@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <p>+62 812-1111-1111</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/t.xygar/" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/x.tegarutomo/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@Xygar" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Restoran Kami menyediakan pengalaman makan terbaik dengan menu yang lezat dan pelayanan yang ramah.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Menu Cepat</h3>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Lokasi</a></li>
+                    <li><a href="#reservation">Reservasi</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Ikuti Kami</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/t.xygar/" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/x.tegarutomo/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@Xygar" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TegarUtomo Restoran. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
