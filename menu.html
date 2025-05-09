@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | TegarResto - Hidangan Indonesia Terlezat di Jakarta</title>
+    <meta name="description" content="Discover our authentic Indonesian dishes prepared with the finest ingredients and traditional methods at TegarResto.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="index.html" class="logo">TegarResto</a>
+                
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                    <a href="about.html" class="nav-link">Tentang</a>
+                    <a href="reservation.html" class="btn btn-primary">Pesan Meja</a>
+                </nav>
+                
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="mobile-menu">
+            <nav>
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="menu.html" class="mobile-nav-link active">Menu</a>
+                <a href="about.html" class="mobile-nav-link">Tentang</a>
+                <a href="reservation.html" class="mobile-nav-link">Pesan Meja</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero sub-hero">
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1617651524211-23485a7aaff4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=600" alt="Indonesian food spread">
+            </div>
+            <div class="overlay"></div>
+            <div class="hero-content container">
+                <h1 class="fade-in">Menu</h1>
+                <p class="fade-in">Temukan hidangan asli Indonesia yang disiapkan dengan bahan-bahan terbaik dan metode tradisional.</p>
+            </div>
+        </section>
+
+        <div class="menu-tabs">
+            <div class="container">
+                <div class="menu-tabs-list">
+                    <a href="#appetizers" class="menu-tab active" data-target="appetizers">Hidangan Pembuka</a>
+                    <a href="#main-courses" class="menu-tab" data-target="main-courses">Hidangan Utama</a>
+                    <a href="#desserts" class="menu-tab" data-target="desserts">Hidangan Pencuci Mulut</a>
+                </div>
+            </div>
+        </div>
+
+        <section id="appetizers" class="menu-section">
+            <div class="container">
+                <div class="menu-heading">
+                    <h2>Hidangan <span>Pembuka</span></h2>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/027/541/937/small_2x/an-indonesian-sate-ayam-on-top-of-wooden-table-free-photo.jpg" alt="Sate Ayam">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Sate Ayam</h3>
+                                <span class="menu-item-price">40k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan khas Indonesia yang terdiri dari potongan daging ayam yang ditusuk dengan tusuk bambu dan dipanggang atau dibakar.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://img-global.cpcdn.com/recipes/340ec596e6ad1279/1200x630cq70/photo.jpg" alt="Siomay Ikan">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Siomay Ikan</h3>
+                                <span class="menu-item-price">20k</span>
+                            </div>
+                            <p class="menu-item-description">Camilan siap saji yang terbuat dari adonan ikan cincang yang dibungkus dengan kulit siomay, kemudian dikukus atau digoreng.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Chef's choice</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://www.blibli.com/friends-backend/wp-content/uploads/2024/08/B170174-1-Martabak-Telur-Daging-Ayam-Cincang-1024x538.jpg" alt="Martabak Telur">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Martabak Telur</h3>
+                                <span class="menu-item-price">50k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan yang terdiri dari adonan tipis yang diisi dengan campuran telur, daging cincang, dan bumbu, kemudian dilipat dan digoreng hingga renyah.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://www.masakapahariini.com/wp-content/uploads/2020/11/batagor-bandung-disajikan-e1663738102384.jpg" alt="Batagor">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Batagor</h3>
+                                <span class="menu-item-price">30k</span>
+                            </div>
+                            <p class="menu-item-description">(Singkatan dari bakso tahu goreng) adalah makanan khas Sunda yang populer di Indonesia dan Asia Tenggara. Makanan ini terdiri dari bakso ikan goreng, biasanya disajikan dengan saus kacang.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Traditional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main-courses" class="menu-section">
+            <div class="container">
+                <div class="menu-heading">
+                    <h2>Hidangan <span>Utama</span></h2>
+                </div>
+                
+                <div class="menu-items-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://asset.kompas.com/crops/BKn8c69vpUi3In5Q7Au5QqXvvfk=/0x0:1000x667/1200x800/data/photo/2020/06/29/5ef9d16f05c0e.jpg" alt="Rendang Sapi">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Rendang Sapi</h3>
+                                <span class="menu-item-price">120k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan tradisional Indonesia, khususnya dari Minangkabau, yang terbuat dari daging sapi yang dimasak dengan rempah-rempah dan santan hingga kuahnya mengering.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Signature</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://www.shutterstock.com/image-photo/nasi-ayam-penyet-famous-traditional-600nw-1506195380.jpg" alt="Ayam Penyet">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Ayam Penyet</h3>
+                                <span class="menu-item-price">100k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan ayam goreng khas Jawa Timur yang terkenal dengan rasa pedas dan gurihnya.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500" alt="Nasi Goreng">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Nasi Goreng</h3>
+                                <span class="menu-item-price">90k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan nasi yang digoreng dan dicampur dengan bumbu-bumbu khas seperti kecap manis, bawang merah, bawang putih, lada, dan rempah-rempah lainnya.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Bestseller</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://asset.kompas.com/crops/Bs4oWJdV_9BRvZn1lZQBRWwX5l0=/0x0:1000x667/1200x800/data/photo/2024/01/16/65a5db1f6671b.jpg" alt="Soto Ayam">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Soto Ayam</h3>
+                                <span class="menu-item-price">85k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan sup khas Indonesia yang terkenal dengan kuahnya yang berwarna kuning dari penggunaan kunyit.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Comfort food</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://thumbs.dreamstime.com/b/gado-gado-traditional-indonesian-food-gado-gado-traditional-indonesian-food-rice-cake-egg-vegetable-peanut-sauce-121312052.jpg" alt="Gado-Gado">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Gado-Gado</h3>
+                                <span class="menu-item-price">70k</span>
+                            </div>
+                            <p class="menu-item-description">Salad sayuran yang disiram dengan saus kacang. Hidangan ini terdiri dari berbagai sayuran seperti kentang, tahu, tempe, dan telur rebus.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://api-food.siagaairbersih.com/storage/img/product/651688090528.jpg" alt="Mie Goreng">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Mie Goreng</h3>
+                                <span class="menu-item-price">60k</span>
+                            </div>
+                            <p class="menu-item-description">Hidangan mi khas Indonesia yang digoreng dengan bumbu-bumbu khas, seperti bawang putih, bawang merah, cabai, kecap, dan berbagai tambahan.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desserts" class="menu-section">
+            <div class="container">
+                <div class="menu-heading">
+                    <h2>Hidangan <span>Pencuci Mulut</span></h2>
+                </div>
+                
+                <div class="menu-items-grid grid-layout">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://cdn0-production-images-kly.akamaized.net/I3RYawpu_wFZaYoUTkW6vsL08aY=/0x351:3408x2272/1200x675/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/4795222/original/033597800_1712298465-shutterstock_2260736677.jpg" alt="Es Campur">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Es Campur</h3>
+                                <span class="menu-item-price">35k</span>
+                            </div>
+                            <p class="menu-item-description">Minuman dingin khas Indonesia yang menggabungkan berbagai bahan manis dan segar seperti buah-buahan, cincau, kolang-kaling, dan sirup.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Refreshing</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://images.pexels.com/photos/3631/summer-dessert-sweet-ice-cream.jpg?cs=srgb&dl=pexels-jeshoots-3631.jpg&fm=jpg" alt="Ice Cream">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Ice Cream</h3>
+                                <span class="menu-item-price">45k</span>
+                            </div>
+                            <p class="menu-item-description">Makanan beku populer yang terbuat dari susu, krim, dan pemanis, yang kemudian dicampur dengan berbagai perasa dan pewarna.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Premium</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="https://media.istockphoto.com/id/1343997461/id/foto/klepon-adalah-makanan-ringan-tradisional-indonesia.jpg?s=612x612&w=0&k=20&c=sS09bGHDpaQspY1an77wKqT08srWQTdKiZfXw97TEx0=" alt="Klepon">
+                        </div>
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h3 class="menu-item-name">Klepon</h3>
+                                <span class="menu-item-price">20k</span>
+                            </div>
+                            <p class="menu-item-description">Jajanan tradisional Indonesia berupa bola-bola kecil dari tepung ketan yang diisi gula merah atau gula Jawa, kemudian direbus dan dilapisi parutan kelapa.</p>
+                            <div class="menu-item-badges">
+                                <span class="badge">Traditional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>TegarResto</h3>
+                    <p>Nikmati masakan Indonesia asli dengan sentuhan modern dalam suasana yang elegan.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/t.xygar/" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/x.tegarutomo/" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@Xygar" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Jl. In Aja Dulu No. 123, Jakarta Pusat, Indonesia</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            </svg>
+                            <span>+62 811-1111-1</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+                            <span>info@tegarresto.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-hours">
+                    <h4>Jam Buka</h4>
+                    <ul>
+                        <li><span>Senin - Jumat</span><span>11:00 - 22:00</span></li>
+                        <li><span>Sabtu</span><span>10:00 - 23:00</span></li>
+                        <li><span>Minggu</span><span>10:00 - 21:00</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 TegarResto. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
